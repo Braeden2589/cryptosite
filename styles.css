@@ -120,9 +120,16 @@ nav .btn{
     }
 
     .coin-list{
+        right: 5%;
+        margin-top: 10%;
         display:grid;
         grid-gap: 40px;
     }
+
+    .content, .coin-list{
+        flex-basis: 100%;
+    }
+   
    
 
 }
