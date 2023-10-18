@@ -113,15 +113,22 @@ nav .btn{
     .content{
         margin-top:30%;
         font-size: 16px;
+        margin-bottom: 30%;
     }
 
     .content h1{
         font-size: 30px;
     }
 
+    .content .btn{
+        display: inline-flex;
+        margin-top: 15px;
+        padding: 10px 25px;
+    }
+
     .coin-list{
         right: 5%;
-        margin-top: 10%;
+        margin-top: 20%;
         display:grid;
         grid-gap: 40px;
     }
@@ -129,7 +136,4 @@ nav .btn{
     .content, .coin-list{
         flex-basis: 100%;
     }
-   
-   
-
 }
